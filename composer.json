@@ -1,0 +1,14 @@
+{
+    "name": "arman/task-manager-ui",
+    "description": "SImple Project of TESTING Todo",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Gaël Thomas",
+            "email": "58463564+arman-shirmohammadi@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "hekmatinasser/verta": "^1.11"
+    }
+}
