@@ -267,3 +267,16 @@ body {
 .clear {
   clear: both;
 }
+
+input{
+  padding: 3px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+btn{
+  padding: 3px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+

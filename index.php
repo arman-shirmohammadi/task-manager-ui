@@ -1,11 +1,11 @@
 <?php
-use Hekmatinasser\Verta\Verta;
-include("bootstrap/init.php");
-$v = Verta::now();
 
-// var_dump($v);
-echo ($v);
+include("bootstrap/init.php");
+
 $tasks = getTasks();
+
+$folders = getFolders();
+
 include("tpl/tpl-index.php");
 
 

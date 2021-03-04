@@ -1,13 +1,8 @@
-<?php
-// echo implode(' - ',$tasks);
-echo implode(" - ",$tasks);
-?>
-
 <!DOCTYPE html>
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title><?= SITE_TITLE ?></title>
+  <title>Testing</title>
   <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
@@ -26,14 +21,20 @@ echo implode(" - ",$tasks);
         </div>
       </div>
       <div class="menu">
-        <div class="title">Navigation</div>
+        <div class="title">Folders</div>
+        <?php foreach($folders as $folder):?>
         <ul>
-          <li> <i class="fa fa-home"></i>Home</li>
-          <li><i class="fa fa-signal"></i>Activity</li>
-          <li class="active"> <i class="fa fa-tasks"></i>Manage Tasks</li>
-          <li> <i class="fa fa-envelope"></i>Messages</li>
+          <li> <i class="fa fa-folder"></i><?= $folder->name ?></li>
+          <?php endforeach; ?>
+         
         </ul>
       </div>
+      <div>
+          <input id="newfolderinput"  type="text" placeholder="Add New Folder"/>
+        
+
+        <button id="newfolderbtn" class="btn">+</button>
+    </div>
     </div>
     <div class="view">
       <div class="viewHeader">
