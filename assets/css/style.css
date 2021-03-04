@@ -262,6 +262,7 @@ body {
 }
 .main .view .content .list ul li .info .button.green {
   background-color: #85C157;
+  
 }
 
 .clear {
@@ -280,3 +281,14 @@ btn{
   border: 1px solid #ccc;
 }
 
+
+.main .nav .menu ul li a {
+  text-decoration: none;
+  color: #2c8c91;
+}
+
+.remove {
+  color: red  !important;
+  float: right;
+  padding-right: 5px;
+}

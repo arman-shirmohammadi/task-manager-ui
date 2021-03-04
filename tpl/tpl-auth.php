@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <title>Login/Register</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <script src='assets/js/jquery.min.js'></script>
+  
+  
+  <script  src="assets/js/script.js"></script>
 
 </head>
 <body>
@@ -14,9 +18,7 @@
 Auth Page
 </div>
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  
-  <script  src="assets/js/script.js"></script>
+
 
 </body>
 </html>
